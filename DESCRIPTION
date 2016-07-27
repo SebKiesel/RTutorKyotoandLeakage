@@ -1,0 +1,11 @@
+Package: RTutorKyotoandLeakage
+Type: Package
+Title: RTutor Kyoto, Carbon Leakage and Bilateral Trade
+Version: 0.1
+Date: 2016-27-07
+Author: Sebastian Kiesel
+Maintainer: Sebastian Kiesel <sebastian.kiesel.sk@gmail.com>
+Description: It is an RTutor Problem Set to analyse the effect of carbon leakage after the Kyoto Protocol through bilateral trades.
+License: Problem set content: Creative Commons (CC BY-SA)
+	 Package code: GPL >= 2.0
+Depends: RTutor, foreign, dplyr, lfe, stargazer, sandwich, XML, leaflet, regtools, AER, ggplot2, gridExtra, rworldmap

@@ -1,0 +1,52 @@
+orgvar | var | descr
+sid | sid | Identifier of importer-exporter-sector
+ccode | importer | importer country
+pcode | exporter | exporter country
+year | year| Year of observation
+category | sector | Sector identifier
+ckyoto | kyotom | Indicator variable for Kyoto ratification of importer
+pkyoto | kyotox | Indicator variable for Kyoto ratification of exporter
+dk | dk | Difference in Kyoto status (=kyotom-kyotox)
+limp | limp | Ln of imp
+lint | lint | Ln of int_imp
+lCCT_sec | lant | Ln of ant
+lbeim | lbeim | Ln of BEIM
+ltech | ltech | Ln of BEIM_tech
+lmrio | lmrio | Ln of BEIM_mrio
+lint2 | lint2 | Ln of carbon content intensity, multi-region input-output-method
+CCT_sec | ant | Sectoral bilateral carbon terms of trade a la Antweiler (1996) (=(BEEX/exp)/(BEIM/imp))
+BEIM | BEIM | Bilateral emissions embodied in imports (in t of CO2), single-region input-output method, unbalanced sample
+BEEX_srio | BEEX | Bilateral emissions embodied in exports (in t of CO2), single-region input-output method, unbalanced sample
+imp | imp | Imports (in current million US-dollars, fob)
+exp | exp | Exports (in current million US-dollars, fob)
+int_imp | int_imp | Carbon content intensity of imports (=BEIM/imp*1000000) (in t of CO2 per USdollar)
+BEIM_tech | BEIM_tech | Bilateral emissions embodied in imports (in t of CO2), single-region input-output method, balanced sample, technology fixed in 2000
+BEIM_mrio | BEIM_mrio | Bilateral emissions embodied in imports (in t of CO2), multi-region input-output method, balanced sample
+BEEX_mrio | BEEX_mrio | Bilateral emissions embodied in exports (in t of CO2), multi-region input-output method, balanced sample
+BEIM_m_iofix | BEIM_mrio2000 | Bilateral emissions embodied in imports (in t of CO2), multiregion input-output method, balanced sample, input-output-table fixed in 2000
+wto | wto | Indicator variable of joint WTO membership
+eu | eu | Indicator variable of joint EU membership
+fta | fta | Indicator variable of joint FTA membership
+ccgdp | gdpm | Importer's GDP per capita (in constant 2000 US-dollars)
+pcgdp | gdpx | Exporter's GDP per capita (in constant 2000 US-dollars)
+lcy | lgdpm | Ln of importer's GDP per capita (=ln(gdpm))
+lpy | lgdpx | Ln of exporter's GDP per capita (=ln(gdpx))
+contig | contig | Indicator variable for contiguity
+comlang_ethno | comlang | Indicator variable for common language
+dist | dist | Simple distance (most populated cities, in km)
+mrdis | mrdis | Multilateral resistance of distance (GDP-weights)
+mrcon | mrcon | Multilateral resistance of contiguity (GDP-weights)
+mrcom | mrcom | Multilateral resistance of common language (GDP-weights)
+mrfta | mrfta | Multilateral resistance of joint FTA membership (GDP-weights)
+mrwto | mrwto | Multilateral resistance of joint WTO membership (GDP-weights)
+mreu | mreu | Multilateral resistance of joint EU membership (GDP-weights)
+trans | trans | Indicator variable for countries in transition
+cICC | ICCm | Indicator variable for importer?s ratification of Rome Statute governing membership to the International Criminal Court
+pICC | ICCx | Indicator variable for exporter's ratification of Rome Statute governing membership to the International Criminal Court
+dkICC | dICC | Difference in ICC ratification (=ICC_imp-ICC_exp)
+bothin | bothin | Indicator variable for both countries in Kyoto
+impin | impin | Indicator variable for importer only in Kyoto
+expin | expin | Indicator variable for exporter only in Kyoto
+nonein | nonein | Indicator variable for both countries not in Kyoto
+ldist | ldist | Ln of dist
+N.A. | statusx | character variable for committed versus non-committed exporter countries
