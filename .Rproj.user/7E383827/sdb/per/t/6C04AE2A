@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# Working folder that contains your solution file\nsetwd(\"C:/Users/Hirschkopf/Documents/RTutorKyotoandLeakage\")\n\n# First generate your problem set in the usual manner\nlibrary(RTutor)\nlibrary(yaml)\n#library(restorepoint)\nps.name = \"Kyoto\"; sol.file = paste0(ps.name,\"_sol.Rmd\")\nlibs = c(\"foreign\",\"dplyr\",\"lfe\",\"stargazer\",\"sandwich\",\"XML\",\"leaflet\",\"regtools\",\"AER\",\"ggplot2\",\"gridExtra\",\"rworldmap\") # character vector of all packages you load in the problem set\nname.rmd.chunks(sol.file) # set auto chunk names in this file\ncreate.ps(sol.file=sol.file, ps.name=ps.name, user.name=NULL,libs=libs, stop.when.finished=FALSE, extra.code.file=\"extra.R\" ,addons=\"quiz\", use.memoise=TRUE, var.txt.file = \"variables.txt\", rps.has.sol=TRUE)\n\n# This function creates a skeleton for your problem set package\nrtutor.package.skel(sol.file=sol.file, ps.name=ps.name,libs=libs,\n                    pkg.name=\"RTutorKyotoandLeakage\",   # Name of the problem set package\n                    pkg.parent.dir = \"C:/Users/Hirschkopf/Documents/RTutorKyotoandLeakage\", # Parent directory \n                    author=\"Sebastian Kiesel\", # Your name\n                    github.user=\"SebKiesel\",     # Your github user name\n                    extra.code.file=\"extra.r\", # name of extra.code.file\n                    var.txt.file=\"variables.txt\",    # name of var.txt.file\n                    overwrite=FALSE  # Do you want to override if package directory exists?\n)",
+    "created" : 1469661961290.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3713725788",
+    "id" : "6C04AE2A",
+    "lastKnownWriteTime" : 1469654760,
+    "last_content_update" : 1469654760,
+    "path" : "~/wartung/speicher.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
