@@ -13,7 +13,7 @@ library(yaml)
 #library(restorepoint)
 setwd("C:/Users/Hirschkopf/Documents/RTutorKyotoandLeakage/RTutorKyotoandLeakage/inst/ps/Kyoto")
 ps.name = "Kyoto"; sol.file = paste0(ps.name,"_sol.Rmd")
-libs = c("dplyr","lfe","stargazer","regtools","ggplot2","gridExtra","rworldmaps") # character vector of all packages you load in the problem set
+libs = c("foreign","dplyr","lfe","stargazer","AER","sandwich","leaflet","regtools","ggplot2","gridExtra","rworldmaps") # character vector of all packages you load in the problem set
 name.rmd.chunks(sol.file) # set auto chunk names in this file
 create.ps(sol.file=sol.file, ps.name=ps.name, user.name=NULL,libs=libs, stop.when.finished=FALSE, extra.code.file="extra.R" ,addons="quiz", use.memoise=TRUE, var.txt.file = "variables.txt", rps.has.sol=TRUE)
 
